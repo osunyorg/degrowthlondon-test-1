@@ -1,15 +1,24 @@
 ---
 title: Main menu
 items:
-- title: What's On
-  slug: what-s-on
-  target: "/agenda/"
+- title: Exhibitions
+  slug: exhibitions
+  target: "/exhibitions/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/events"
-  file: content/en/events/_index.html
+  path: "/exhibitions"
+  file: content/en/exhibitions/_index.html
+- title: Persons
+  slug: persons
+  target: "/persons/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/persons"
+  file: content/en/persons/_index.html
 - title: Projects
   slug: projects
   target: "/projects/"
@@ -37,22 +46,13 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/en/posts/_index.html
-- title: Exhibitions
-  slug: exhibitions
-  target: "/exhibitions/"
+- title: What's On
+  slug: what-s-on
+  target: "/agenda/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/exhibitions"
-  file: content/en/exhibitions/_index.html
-- title: Persons
-  slug: persons
-  target: "/persons/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/persons"
-  file: content/en/persons/_index.html
+  path: "/events"
+  file: content/en/events/_index.html
 
